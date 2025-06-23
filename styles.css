@@ -195,7 +195,6 @@ a {
     color: var(--accent);
     font-weight: 600px;
     font-size: 20px;
-    text-decoration: underline;
 }
 
 .phone h1 {
@@ -225,6 +224,14 @@ a {
     right: 300px;
 }
 
+.link-underline {
+  text-decoration: none;
+}
+
+.link-underline:hover {
+  text-decoration: underline;
+}
+
 .border {
   width: 1235px;
   height: 1px;
@@ -247,6 +254,12 @@ a {
   font-weight: 400px;
   font-size: 16px;
   color: var(--dark);
+  transition: 0.2s;
+}
+
+.links:hover {
+  color: var(--accent);
+  transition: 0.2s;
 }
 
 .container-call-me {
